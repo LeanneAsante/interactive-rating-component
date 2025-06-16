@@ -31,5 +31,31 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Overpass', sans-serif;
+    background-color: var(--Grey-950);
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.container{
+  background-color: var(--Grey-900);
+  /* display: grid; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.submit{
+  background-color: var(--Orange-500);
+  border-radius: 15%;
+}
+
+.icon-star-container{
+  background-color: var(--Grey-500);
+  border-radius: 100%;
+  width: 22px;
+  height: 22px;
+}
